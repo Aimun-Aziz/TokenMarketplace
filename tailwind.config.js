@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'pop':['Abyssinica SIL', 'serif', 'Ibarra Real Nova', 'serif', 'Titillium Web', 'sans-serif']
+        'pop':['PT Mono', 'monospace']
       }
     },
   },
