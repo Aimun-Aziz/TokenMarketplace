@@ -61,385 +61,400 @@
             <p class="text-lg font-pop font-bold">LIVE PAIRS</p>
         </div>
 
-        <table class="border border-gray-300 mt-7 h-60">
-            <thead>
+        <table class="border border-gray-300 mt-7 h-60 md:w-24 w-20">
+            <thead class=" md:text-sm relative">
 
                 <tr class="font-pop">
-                    <th class="px-4"></th>
-                    <th class="px-4"></th>
+                    <th class="px-3 md:px-2 py-3 md:py-5 "></th>
+                    <th class="px-2 py-3 md:py-5 "></th>
+                    <th class="px-5 py-3 md:py-5 "></th>
 
-                    <th class="px-10">PAIR</th>
-                    <th class="px-10">AGE</th>
-                    <th class="px-10">PRICE</th>
-                    <th class="px-10">POOL/ LIQ</th>
-                    <th class="px-10">CHANGE</th>
+                    <th class="px-10 py-3 md:py-5 text-xs md:text-sm">PAIR</th>
+                    <th class="md:px-10 py-3 md:py-5 text-xs md:text-sm">AGE</th>
+                    <th class="px-10 py-3 md:py-5 text-xs md:text-sm">PRICE</th>
+                    <th class="px:0.5 lg:px-10 py-3 md:py-5 md:px-6 text-xs md:text-sm">POOL/ LIQ</th>
+                    <th class="px-10 py-3 md:py-5 text-xs md:text-sm">CHANGE</th>
 
 
-                    <th class="px-4"></th>
-                    <th class="px-6"></th>
-                    <th class="px-7"></th>
-                    <th class="px-5"></th>
+                    <th class="px-4 py-3 md:py-5 hidden lg:flex"></th>
+                    <th class="px-3 lg:px-6 py-3 md:py-5 md:px-4"></th>
+                    <th class="px-4 lg:px-7 py-3 md:py-5 md:px-5"></th>
+                    <th class="px-4 lg:px-5 py-3 md:py-5 "></th>
 
                 </tr>
 
-                <!-- <tr>
-                    <img class="w-2/4 h-0.5" src="/images/Table-icons/Line 1.png" alt="">
+                <tr>
+                    <img class="w-2/5 h-0.5 absolute inset-0 top-48 left-44 md:top-52 md:left-52 lg:left-96" src="/images/Table-icons/Line 1.png" alt="">
 
-                </tr> -->
+                </tr>
             </thead>
 
-            <tbody>
+            <tbody class="md:text-sm ">
                 <!-- ----Row1---- -->
-                <tr class="">
+                
+                <tr>
                     <td>
-                        <img class="w-min h-4 px-4" src="/images/Table-icons/skull.png" alt="">
+                        <img class="w-4 h-4 mb-4 mx-3 md:w-8 md:h-4 md:px-1.5 md:mx-2 lg:mx-3" src="/images/Table-icons/skull.png" alt="">
                     </td>
 
-                    <td class="relative">
-                        <img class="w-min h-9" src="/images/Table-icons/Ellipse 1.png" alt="">
-                        <img class="w-min h-2 absolute inset-0 top-4 left-2" src="/images/Table-icons/USDT.png" alt="">
+                    <td class="pb-4 "></td>
+
+                    <td class="relative pb-4 ">
+                        <img class="w-min h-7 lg:h-9 md:w-8 md:h-8" src="/images/Table-icons/Ellipse 1.png" alt="">
+                        <img class="w-min h-2 absolute inset-0 top-6 md:top-4 left-1 md:text-xs md:left-1.5 " src="/images/Table-icons/USDT.png" alt="">
                     </td>
 
-                    <td class="px-6 font-pop">
+                    <td class="px-5 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         USDT/ETH
                     </td>
 
-                    <td class="flex justify-center items-center mt-1">
-                        <img class="w-min h-3" src="/images/Table-icons/age-clock.png" alt="">
-                        <span class="px-2 font-pop">3M 44s</span>
+                    <td class="flex justify-center items-center mt-2 pb-4">
+                        <img class="w-min h-2 md:h-3" src="/images/Table-icons/age-clock.png" alt="">
+                        <span class="px-2 font-pop  lg:text-lg ">3M 44s</span>
                     </td>
 
-                    <td class="text-center font-pop">
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         <span>0.08$</span>
                     </td>
 
-                    <td class="text-center font-pop">
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         <span>44k$</span>
                     </td>
 
-                    <td class="relative px-5">
-                        <img class="w-24 h-9" src="/images/Table-icons/graph.png" alt="">
-                        <span class="absolute inset-0 top-2 left-14 text-green-900 font-pop">550%</span>
+                    <td class="relative px-8 md:px-5 pb-4">
+                        <img class="w-16 h-6 md:w-24 md:h-9" src="/images/Table-icons/graph.png" alt="">
+                        <span class="absolute inset-0 top-6 md:top-2 left-14 text-green-900 text-xs md:text-sm lg:text-lg font-pop">550%</span>
+                        
                     </td>
 
 
-                    <td></td>
+                    <td class="pb-4 hidden lg:flex"></td>
 
                     <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/eye.png" alt="">
+                        <img class=" mb-4 w-3 h-3 lg:w-5 lg:h-5 md:w-4 md:h-4" src="/images/Table-icons/eye.png" alt="">
                     </td>
 
                     <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/add.png" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/add.png" alt="">
                     </td>
 
                     <td>
-                        <img class="w-5 h-5 -mx-2" src="/images/Table-icons/wallet.png" alt="">
+                        <img class=" w-3 h-3 lg:w-5 lg:h-5 -mx-2 mb-4 md:w-4 md:h-4" src="/images/Table-icons/wallet.png" alt="">
                     </td>
 
                 </tr>
-
+          
                 <!-- -----Row2----- -->
 
                 <tr>
                     <td>
-                        <img class="w-min h-4 mt-4 px-4" src="/images/Table-icons/skull2.png" alt="">
+                        <img class="w-4 h-4 mx-3 md:w-8 mb-4 md:h-4 md:px-1.5 md:mx-2 lg:mx-3" src="/images/Table-icons/skull2.png" alt="">
                     </td>
 
-                    <td class="relative">
-                        <img class="w-min h-9" src="/images/Table-icons/Ellipse 2.png" alt="">
-                        <img class="w-min h-2 absolute inset-0 top-4 left-3" src="/images/Table-icons/XRO.png" alt="">
+                    <td class="pb-4 "></td>
+
+                    <td class="relative pb-4 ">
+                        <img class="w-min h-7 lg:h-9 md:w-8 md:h-8" src="/images/Table-icons/Ellipse 2.png" alt="">
+                        <img class="w-min h-2 absolute inset-0 top-4 left-2 md:top-4 " src="/images/Table-icons/XRO.png" alt="">
                     </td>
 
-                    <td class="px-6 font-pop">
+                    <td class="px-6 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         XRO/ETH
                     </td>
 
-                    <td class="flex justify-center items-center mt-1">
-                        <img class="w-min h-3" src="/images/Table-icons/age-clock.png" alt="">
-                        <span class="px-2 font-pop">15M</span>
+                    <td class="flex justify-center items-center mt-2 pb-4">
+                        <img class="w-min h-2 md:h-3" src="/images/Table-icons/age-clock.png" alt="">
+                        <span class="px-2 font-pop text-xs md:text-sm lg:text-lg ">3M 44s</span>
                     </td>
 
-                    <td class="text-center font-pop">
-                        <span>0.04$</span>
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        <span>0.08$</span>
                     </td>
 
-                    <td class="text-center font-pop">
-                        <span>12.6k$</span>
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        <span>44k$</span>
                     </td>
 
-                    <td class="relative px-5">
-                        <img class="w-24 h-9" src="/images/Table-icons/graph.png" alt="">
-                        <span class="absolute inset-0 top-2 left-14 text-red-900 font-pop">-5%</span>
+                    <td class="relative px-8 md:px-5 pb-4">
+                        <img class="w-16 h-6 md:w-24 md:h-9" src="/images/Table-icons/graph.png" alt="">
+                        <span class="absolute inset-0 top-6 md:top-2 left-14 text-red-900 text-xs md:text-sm lg:text-lg font-pop">550%</span>
                     </td>
 
 
-                    <td></td>
+                    <td class="pb-4 hidden lg:flex"></td>
 
                     <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/eye.png" alt="">
-                    </td>
-
-                    <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/add.png" alt="">
+                        <img class=" mb-4 w-3 h-3 lg:w-5 lg:h-5 md:w-4 md:h-4" src="/images/Table-icons/eye.png" alt="">
                     </td>
 
                     <td>
-                        <img class="w-5 h-5 -mx-2" src="/images/Table-icons/wallet.png" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/add.png" alt="">
+                    </td>
+
+                    <td>
+                        <img class=" w-3 h-3 lg:w-5 lg:h-5 -mx-2 mb-4 md:w-4 md:h-4" src="/images/Table-icons/wallet.png" alt="">
                     </td>
 
                 </tr>
 
                 <!-- -----Row3----- -->
-
                 <tr>
                     <td>
-                        <img class="w-min h-4 mt-4 px-4" src="/images/Table-icons/skull2.png" alt="">
+                        <img class="w-4 h-4 mx-3 md:w-8 mb-4 md:h-4 md:px-1.5 md:mx-2 lg:mx-3" src="/images/Table-icons/skull2.png" alt="">
                     </td>
 
-                    <td class="relative">
-                        <img class="w-min h-9" src="/images/Table-icons/Ellipse 2.png" alt="">
-                        <img class="w-min h-2 absolute inset-0 top-4 left-3" src="/images/Table-icons/XRO.png" alt="">
+                    <td class="pb-4 "></td>
+
+                    <td class="relative pb-4 ">
+                        <img class="w-min h-7 lg:h-9 md:w-8 md:h-8" src="/images/Table-icons/Ellipse 2.png" alt="">
+                        <img class="w-min h-2 absolute inset-0 top-4 md:top-3 left-2 " src="/images/Table-icons/XRO.png" alt="">
                     </td>
 
-                    <td class="px-6 font-pop">
+                    <td class="px-6 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         XRO/ETH
                     </td>
 
-                    <td class="flex justify-center items-center mt-1">
-                        <img class="w-min h-3" src="/images/Table-icons/age-clock.png" alt="">
-                        <span class="px-2 font-pop">15M</span>
+                    <td class="flex justify-center items-center mt-2 pb-4">
+                        <img class="w-min h-2 md:h-3" src="/images/Table-icons/age-clock.png" alt="">
+                        <span class="px-2 font-pop text-xs md:text-sm lg:text-lg ">3M 44s</span>
                     </td>
 
-                    <td class="text-center font-pop">
-                        <span>0.04$</span>
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        <span>0.08$</span>
                     </td>
 
-                    <td class="text-center font-pop">
-                        <span>12.6k$</span>
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        <span>44k$</span>
                     </td>
 
-                    <td class="relative px-5">
+                    <td class="relative px-5 pb-4">
                         
-                        <span class="absolute inset-0 top-2 left-14 text-red-900 font-pop">-5%</span>
+                        <span class="absolute inset-0 top-5 md:top-2 left-14 text-red-900 text-xs md:text-sm lg:text-lg font-pop">550%</span>
                     </td>
 
 
-                    <td></td>
+                    <td class="pb-4 hidden lg:flex"></td>
 
                     <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/eye.png" alt="">
+                        <img class=" mb-4 w-3 h-3 lg:w-5 lg:h-5 md:w-4 md:h-4" src="/images/Table-icons/eye.png" alt="">
                     </td>
 
                     <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/add.png" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/add.png" alt="">
                     </td>
 
                     <td>
-                        <img class="w-5 h-5 -mx-2" src="/images/Table-icons/wallet.png" alt="">
+                        <img class=" w-3 h-3 lg:w-5 lg:h-5 -mx-2 mb-4 md:w-4 md:h-4" src="/images/Table-icons/wallet.png" alt="">
+                    </td>
+
+                </tr>
+          
+                <tr>
+                    <td>
+                        <img class="w-4 h-4 mx-3 md:w-8 mb-4 md:h-4 md:px-1.5 md:mx-2 lg:mx-3" src="/images/Table-icons/skull.png" alt="">
+                    </td>
+
+                    <td class="pb-4 "></td>
+
+                    <td class="relative pb-4 ">
+                        <img class="w-min h-7 lg:h-9 md:w-8 md:h-8" src="/images/Table-icons/Ellipse 2.png" alt="">
+                        <img class="w-min h-2 absolute inset-0 top-4 md:top-3 left-2  " src="/images/Table-icons/XRO.png" alt="">
+                    </td>
+
+                    <td class="px-6 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        XRO/ETH
+                    </td>
+
+                    <td class="flex justify-center items-center mt-2 pb-4">
+                        <img class="w-min h-2 md:h-3" src="/images/Table-icons/age-clock.png" alt="">
+                        <span class="px-2 font-pop text-xs md:text-sm lg:text-lg ">3M 44s</span>
+                    </td>
+
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        <span>0.08$</span>
+                    </td>
+
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        <span>44k$</span>
+                    </td>
+
+                    <td class="relative px-5 pb-4">
+                        
+                        <span class="absolute inset-0 top-5 md:top-2 left-14 text-red-900 text-xs md:text-sm lg:text-lg font-pop">550%</span>
+                    </td>
+
+
+                    <td class="pb-4 hidden lg:flex"></td>
+
+                    <td>
+                        <img class=" mb-4 w-3 h-3 lg:w-5 lg:h-5 md:w-4 md:h-4" src="/images/Table-icons/eye.png" alt="">
+                    </td>
+
+                    <td>
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/add.png" alt="">
+                    </td>
+
+                    <td>
+                        <img class=" w-3 h-3 lg:w-5 lg:h-5 -mx-2 mb-4 md:w-4 md:h-4" src="/images/Table-icons/wallet.png" alt="">
                     </td>
 
                 </tr>
 
                 <tr>
                     <td>
-                        <img class="w-min h-4 mt-4 px-4" src="/images/Table-icons/skull2.png" alt="">
+                        <img class="w-4 h-4 mx-3 md:w-8 mb-4 md:h-4 md:px-1.5 md:mx-2 lg:mx-3" src="/images/Table-icons/skull2.png" alt="">
                     </td>
 
-                    <td class="relative">
-                        <img class="w-min h-9" src="/images/Table-icons/Ellipse 2.png" alt="">
-                        <img class="w-min h-2 absolute inset-0 top-4 left-3" src="/images/Table-icons/XRO.png" alt="">
+                    <td class="pb-4 "></td>
+
+                    <td class="relative pb-4 ">
+                        <img class="w-min h-7 lg:h-9 md:w-8 md:h-8" src="/images/Table-icons/Ellipse 2.png" alt="">
+                        <img class="w-min h-2 absolute inset-0 top-4 md:top-3 left-2" src="/images/Table-icons/XRO.png" alt="">
                     </td>
 
-                    <td class="px-6 font-pop">
+                    <td class="px-6 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         XRO/ETH
                     </td>
 
-                    <td class="flex justify-center items-center mt-1">
-                        <img class="w-min h-3" src="/images/Table-icons/age-clock.png" alt="">
-                        <span class="px-2 font-pop">15M</span>
+                    <td class="flex justify-center items-center mt-2 pb-4">
+                        <img class="w-min h-2 md:h-3" src="/images/Table-icons/age-clock.png" alt="">
+                        <span class="px-2 font-pop text-xs md:text-sm lg:text-lg ">3M 44s</span>
                     </td>
 
-                    <td class="text-center font-pop">
-                        <span>0.04$</span>
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        <span>0.08$</span>
                     </td>
 
-                    <td class="text-center font-pop">
-                        <span>12.6k$</span>
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        <span>44k$</span>
                     </td>
 
-                    <td class="relative px-5">
+                    <td class="relative px-5 pb-4">
                         
-                        <span class="absolute inset-0 top-2 left-14 text-red-900 font-pop">-5%</span>
+                        <span class="absolute inset-0 top-5 md:top-2 left-14 text-red-900 text-xs md:text-sm lg:text-lg font-pop">550%</span>
                     </td>
 
 
-                    <td></td>
+                    <td class="pb-4 hidden lg:flex"></td>
 
                     <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/eye.png" alt="">
+                        <img class=" mb-4 w-3 h-3 lg:w-5 lg:h-5 md:w-4 md:h-4" src="/images/Table-icons/eye.png" alt="">
                     </td>
 
                     <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/add.png" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/add.png" alt="">
                     </td>
 
                     <td>
-                        <img class="w-5 h-5 -mx-2" src="/images/Table-icons/wallet.png" alt="">
+                        <img class=" w-3 h-3 lg:w-5 lg:h-5 -mx-2 mb-4 md:w-4 md:h-4" src="/images/Table-icons/wallet.png" alt="">
                     </td>
 
                 </tr>
 
                 <tr>
                     <td>
-                        <img class="w-min h-4 mt-4 px-4" src="/images/Table-icons/skull2.png" alt="">
+                        <img class="w-4 h-4 mx-3 md:w-8 mb-4 md:h-4 md:px-1.5 md:mx-2 lg:mx-3" src="/images/Table-icons/skull2.png" alt="">
                     </td>
 
-                    <td class="relative">
-                        <img class="w-min h-9" src="/images/Table-icons/Ellipse 2.png" alt="">
-                        <img class="w-min h-2 absolute inset-0 top-4 left-3" src="/images/Table-icons/XRO.png" alt="">
+                    <td class="pb-4 "></td>
+
+                    <td class="relative pb-4 ">
+                        <img class="w-min h-7 lg:h-9 md:w-8 md:h-8" src="/images/Table-icons/Ellipse 2.png" alt="">
+                        <img class="w-min h-2 absolute inset-0 top-4 md:top-3 left-2 " src="/images/Table-icons/XRO.png" alt="">
                     </td>
 
-                    <td class="px-6 font-pop">
+                    <td class="px-6 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         XRO/ETH
                     </td>
 
-                    <td class="flex justify-center items-center mt-1">
-                        <img class="w-min h-3" src="/images/Table-icons/age-clock.png" alt="">
-                        <span class="px-2 font-pop">15M</span>
+                    <td class="flex justify-center items-center mt-2 pb-4">
+                        <img class="w-min h-2 md:h-3" src="/images/Table-icons/age-clock.png" alt="">
+                        <span class="px-2 font-pop text-xs md:text-sm lg:text-lg ">3M 44s</span>
                     </td>
 
-                    <td class="text-center font-pop">
-                        <span>0.04$</span>
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        <span>0.08$</span>
                     </td>
 
-                    <td class="text-center font-pop">
-                        <span>12.6k$</span>
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        <span>44k$</span>
                     </td>
 
-                    <td class="relative px-5">
+                    <td class="relative px-5 pb-4">
                         
-                        <span class="absolute inset-0 top-2 left-14 text-red-900 font-pop">-5%</span>
+                        <span class="absolute inset-0 top-5 md:top-2 left-14 text-red-900 text-xs md:text-sm lg:text-lg font-pop">550%</span>
                     </td>
 
 
-                    <td></td>
+                    <td class="pb-4 hidden lg:flex"></td>
 
                     <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/eye.png" alt="">
+                        <img class=" mb-4 w-3 h-3 lg:w-5 lg:h-5 md:w-4 md:h-4" src="/images/Table-icons/eye.png" alt="">
                     </td>
 
                     <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/add.png" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/add.png" alt="">
                     </td>
 
                     <td>
-                        <img class="w-5 h-5 -mx-2" src="/images/Table-icons/wallet.png" alt="">
+                        <img class=" w-3 h-3 lg:w-5 lg:h-5 -mx-2 mb-4 md:w-4 md:h-4" src="/images/Table-icons/wallet.png" alt="">
                     </td>
 
                 </tr>
+
 
                 <tr>
                     <td>
-                        <img class="w-min h-4 mt-4 px-4" src="/images/Table-icons/skull2.png" alt="">
+                        <img class="w-4 h-4 mx-3 md:w-8 md:h-4 mb-4 md:px-1.5 md:mx-2 lg:mx-3" src="/images/Table-icons/skull2.png" alt="">
                     </td>
 
-                    <td class="relative">
-                        <img class="w-min h-9" src="/images/Table-icons/Ellipse 2.png" alt="">
-                        <img class="w-min h-2 absolute inset-0 top-4 left-3" src="/images/Table-icons/XRO.png" alt="">
+                    <td class="pb-4 "></td>
+
+                    <td class="relative pb-4 ">
+                        <img class="w-min h-7 lg:h-9 md:w-8 md:h-8" src="/images/Table-icons/Ellipse 2.png" alt="">
+                        <img class="w-min h-2 absolute inset-0 top-4 md:top-3 left-2 " src="/images/Table-icons/XRO.png" alt="">
                     </td>
 
-                    <td class="px-6 font-pop">
+                    <td class="px-6 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         XRO/ETH
                     </td>
 
-                    <td class="flex justify-center items-center mt-1">
-                        <img class="w-min h-3" src="/images/Table-icons/age-clock.png" alt="">
-                        <span class="px-2 font-pop">15M</span>
+                    <td class="flex justify-center items-center mt-2 pb-4">
+                        <img class="w-min h-2 md:h-3" src="/images/Table-icons/age-clock.png" alt="">
+                        <span class="px-2 font-pop text-xs md:text-sm lg:text-lg ">3M 44s</span>
                     </td>
 
-                    <td class="text-center font-pop">
-                        <span>0.04$</span>
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        <span>0.08$</span>
                     </td>
 
-                    <td class="text-center font-pop">
-                        <span>12.6k$</span>
+                    <td class="text-center font-pop pb-4 text-xs md:text-sm lg:text-lg ">
+                        <span>44k$</span>
                     </td>
 
-                    <td class="relative px-5">
+                    <td class="relative px-5 pb-4">
                         
-                        <span class="absolute inset-0 top-2 left-14 text-red-900 font-pop">-5%</span>
+                        <span class="absolute inset-0 top-5 md:top-2 left-14 text-red-900 text-xs md:text-sm lg:text-lg font-pop">550%</span>
                     </td>
 
 
-                    <td></td>
+                    <td class="pb-4 hidden lg:flex"></td>
 
                     <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/eye.png" alt="">
+                        <img class=" mb-4 w-3 h-3 lg:w-5 lg:h-5 md:w-4 md:h-4" src="/images/Table-icons/eye.png" alt="">
                     </td>
 
                     <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/add.png" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/add.png" alt="">
                     </td>
 
                     <td>
-                        <img class="w-5 h-5 -mx-2" src="/images/Table-icons/wallet.png" alt="">
+                        <img class=" w-3 h-3 lg:w-5 lg:h-5 -mx-2 mb-4 md:w-4 md:h-4" src="/images/Table-icons/wallet.png" alt="">
                     </td>
 
                 </tr>
 
-                <tr>
-                    <td>
-                        <img class="w-min h-4 mt-4 px-4" src="/images/Table-icons/skull2.png" alt="">
-                    </td>
-
-                    <td class="relative">
-                        <img class="w-min h-9" src="/images/Table-icons/Ellipse 2.png" alt="">
-                        <img class="w-min h-2 absolute inset-0 top-4 left-3" src="/images/Table-icons/XRO.png" alt="">
-                    </td>
-
-                    <td class="px-6 font-pop">
-                        XRO/ETH
-                    </td>
-
-                    <td class="flex justify-center items-center mt-1">
-                        <img class="w-min h-3" src="/images/Table-icons/age-clock.png" alt="">
-                        <span class="px-2 font-pop">15M</span>
-                    </td>
-
-                    <td class="text-center font-pop">
-                        <span>0.04$</span>
-                    </td>
-
-                    <td class="text-center font-pop">
-                        <span>12.6k$</span>
-                    </td>
-
-                    <td class="relative px-5">
-                        
-                        <span class="absolute inset-0 top-2 left-14 text-red-900 font-pop">-5%</span>
-                    </td>
-
-
-                    <td></td>
-
-                    <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/eye.png" alt="">
-                    </td>
-
-                    <td>
-                        <img class="w-5 h-5" src="/images/Table-icons/add.png" alt="">
-                    </td>
-
-                    <td>
-                        <img class="w-5 h-5 -mx-2" src="/images/Table-icons/wallet.png" alt="">
-                    </td>
-
-                </tr>
-
-                <tr class="h-[30vh]"></tr>
-
-
+                <tr class="h-[10vh] relative bottom-0"></tr>
             </tbody>
 
 
