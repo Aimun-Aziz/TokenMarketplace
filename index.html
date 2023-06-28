@@ -8,46 +8,57 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/Css/tailwind.css">
-    <title>Document</title>
+    <title>HOME</title>
 </head>
 
 <body>
     <!-- ----Navigation----- -->
 
-    <div class="navigation bg-black w-full h-12 md:h-14 grid grid-cols-5 lg:grid-cols-8">
+    <div class="navigation bg-black w-full h-12 md:h-14 grid grid-cols-7 sm:grid-cols-5 lg:grid-cols-8">
 
         <!-- <div class="flex justify-center items-center"> -->
-        <div class="col-span-4 flex justify-between">
-            <div>
+        <div class="col-span-4 sm:col-span-4 flex justify-between">
+            <div class="flex ">
                 <img class="w-12 h-12 md:w-14 md:h-14" src="/images/Navigation-Icons/monogram_white 1.svg" alt="">
+                <div class="hamburger inline-block cursor-pointer pt-3 mx-4 sm:hidden">
+                    <div class="line h-0.5 w-5 my-1 bg-white "></div>
+                    <div class="line h-0.5 w-5 my-1 bg-white"></div>
+                    <div class="line h-0.5 w-5 my-1 bg-white"></div>
+                </div>
             </div>
 
+
             <div class="flex justify-center items-center">
-                <span class="text-white text-xs w-20 md:text-sm md:w-24">LIVE MONITOR</span>
+                <span class="text-white text-sm w-24 sm:text-xs md:text-sm md:w-24">LIVE MONITOR</span>
                 <img class="w-5 h-5 md:w-6 md:h-6" src="/images/Navigation-Icons/keyboard-arrow-down.svg" alt="">
             </div>
 
-            <div class="flex mx-0.5 py-4">
-                <p class="text-gray-700 text-xs md:text-sm  md:mx-2">WATCHLIST</p>
-                <p class="text-gray-700 text-xs md:text-sm mx-2 md:mx-2">BOTS</p>
+            <div class="mx-0.5 py-4 hidden sm:flex">
+                <p class="text-gray-500 text-xs md:text-sm  md:mx-2">WATCHLIST</p>
+                <p class="text-gray-500 text-xs md:text-sm mx-2 md:mx-2">BOTS</p>
 
             </div>
 
-            <div class="search relative ">
+            <div class="search relative hidden sm:flex">
                 <img class="w-min h-3 absolute inset-0 mt-5 px-4 mx-4 md:mx-4 md:w-11 md:h-3 md:mt-6"
                     src="/images/Navigation-Icons/magnifying.svg" alt="" />
 
                 <input
-                    class="bg-gray-200 mt-3 px-9 py-2 mx-4 w-48 h-7 text-xs md:text-md md:w-full md:h-9 md:px-10 font-pop"
+                    class="bg-gray-200 mt-3 px-9 py-2 mx-4 w-48 h-7 text-xs  md:text-md md:w-full md:h-9 md:px-10 font-pop"
                     type="text" placeholder="WALLET / PAIR / TOKEN" />
             </div>
+
         </div>
 
-        <div class=" col-span-1 md:col-span-1 lg:col-span-4 flex justify-end">
+        <div class="col-span-3 sm:col-span-1 lg:col-span-4 flex justify-end">
+            <div class="sm:hidden flex justify-center items-center">
+                <img class="w-11 h-4 px-2" src="/images/Navigation-Icons/magnifying.svg" alt="">
+            </div>
+
             <div class="notification w-7 h-7 mt-3 mx-3 relative">
                 <img src="/images/Navigation-Icons/notifications.svg" alt="">
                 <div
-                    class=" lg:py-2 w-4 h-4 rounded-full text-white text-[8px] md:text-[10px] lg:text-xs text-center flex items-center justify-center absolute inset-0 left-4 bg-red-600">
+                    class=" lg:py-2 w-4 h-4 rounded-full text-white text-[8px] md:text-[10px] lg:text-xs text-center flex items-center justify-center absolute inset-0 left-4 bg-red-500">
                     4</div>
             </div>
         </div>
