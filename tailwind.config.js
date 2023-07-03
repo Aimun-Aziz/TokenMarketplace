@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'pop':['PT Mono', 'monospace']
+        'pop':['PT Mono', 'monospace'],
+        'inter':["Inter", "sans-serif", "Titillium Web", "sans-serif"]
       }
     },
   },

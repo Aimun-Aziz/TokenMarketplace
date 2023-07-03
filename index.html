@@ -7,6 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Ibarra+Real+Nova&family=Inter:wght@300&family=Titillium+Web:wght@300&display=swap"
+        rel="stylesheet">
+
+
     <link rel="stylesheet" href="/Css/tailwind.css">
     <title>HOME</title>
 </head>
@@ -14,12 +22,12 @@
 <body>
     <!-- ----Navigation----- -->
 
-    <div class="navigation bg-black w-full h-12 md:h-14 grid grid-cols-7 sm:grid-cols-5 lg:grid-cols-8">
+    <div class="navigation bg-black w-full h-12 md:h-14 grid grid-cols-5 lg:grid-cols-7">
 
         <!-- <div class="flex justify-center items-center"> -->
-        <div class="col-span-4 sm:col-span-4 flex justify-between">
+        <div class="col-span-3 lg:col-span-3 flex justify-between">
             <div class="flex ">
-                <img class="w-12 h-12 md:w-14 md:h-14" src="/images/Navigation-Icons/monogram_white 1.svg" alt="">
+                <img class="w-12 h-12 md:w-14 md:h-14" src="/images/Navigation-Icons/Logo.svg" alt="">
                 <div class="hamburger inline-block cursor-pointer pt-3 mx-4 sm:hidden">
                     <div class="line h-0.5 w-5 my-1 bg-white "></div>
                     <div class="line h-0.5 w-5 my-1 bg-white"></div>
@@ -29,13 +37,14 @@
 
 
             <div class="flex justify-center items-center">
-                <span class="text-white text-sm w-24 sm:text-xs md:text-sm md:w-24">LIVE MONITOR</span>
-                <img class="w-5 h-5 md:w-6 md:h-6" src="/images/Navigation-Icons/keyboard-arrow-down.svg" alt="">
+                <span class="text-white text-sm sm:text-xs md:text-sm lg:w-14">MONITORS</span>
+                <img class="w-5 h-5 md:w-6 md:h-6 lg:mx-4" src="/images/Navigation-Icons/keyboard-arrow-down.svg"
+                    alt="">
             </div>
 
             <div class="mx-0.5 py-4 hidden sm:flex">
-                <p class="text-gray-500 text-xs md:text-sm  md:mx-2">WATCHLIST</p>
-                <p class="text-gray-500 text-xs md:text-sm mx-2 md:mx-2">BOTS</p>
+                <p class="text-gray-500 text-xs md:text-sm md:mx-1.5 lg:mx-2">TRACKING</p>
+                <p class="text-gray-500 text-xs md:text-sm mx-2 lg:mx-2">BOTS</p>
 
             </div>
 
@@ -50,19 +59,23 @@
 
         </div>
 
-        <div class="col-span-3 sm:col-span-1 lg:col-span-4 flex justify-end">
+        <div class="col-span-1 lg:col-span-2 flex ">
             <div class="sm:hidden flex justify-center items-center">
                 <img class="w-11 h-4 px-2" src="/images/Navigation-Icons/magnifying.svg" alt="">
             </div>
 
-            <div class="notification w-7 h-7 mt-3 mx-3 relative">
+            <div class="notification w-7 h-7 mt-3 mx-4 relative">
                 <img src="/images/Navigation-Icons/notifications.svg" alt="">
                 <div
                     class=" lg:py-2 w-4 h-4 rounded-full text-white text-[8px] md:text-[10px] lg:text-xs text-center flex items-center justify-center absolute inset-0 left-4 bg-red-500">
                     4</div>
             </div>
         </div>
-        <!-- </div> -->
+
+        <div class="id col-span-1 lg:col-span-2 text-white text-xs sm:text-sm flex justify-end items-center">
+            <p>0xDde4x7gv3..</p>
+        </div>
+
     </div>
 
 
@@ -71,24 +84,24 @@
     <div class="main flex flex-col justify-center items-center mt-8">
 
         <div class="flex">
-            <img class="w-4 h-4 mt-0.5 md:mt-1.5 mx-2" src="/images/Table-icons/live-streaming.svg" alt="">
+            <img class="w-6 h-6 mt-0.5 mx-1" src="/images/Table-icons/live-streaming.svg" alt="">
 
-            <p class="text-sm md:text-lg font-pop font-bold">LIVE PAIRS</p>
+            <p class="text-sm md:text-lg font-inter font-extrabold">LIVE PAIRS</p>
         </div>
 
-        <table class="border border-gray-300 mt-7 mx-20">
+        <table class="border border-gray-500 mt-7 mx-20 table-fixed">
             <thead class=" md:text-sm relative">
 
-                <tr class="font-pop">
+                <tr class="font-inter">
                     <th class="px-3 md:px-2 py-3 md:py-5 "></th>
                     <th class="px-2 py-3 md:py-5 "></th>
                     <th class="px-5 py-3 md:py-5 "></th>
 
-                    <th class="px-10 py-5 text-xs md:text-sm">PAIR</th>
+                    <th class="px-10 py-5 text-xs md:text-sm ">PAIR</th>
                     <th class="md:px-10 py-3 md:py-5 text-xs md:text-sm">AGE</th>
                     <th class="px-10 py-3 md:py-5 text-xs md:text-sm">PRICE</th>
                     <th class="lg:px-8 py-3 md:py-5 md:px-6 text-xs md:text-sm">POOL/LIQ</th>
-                    <th class="px-10 py-3 md:py-5 text-xs md:text-sm">CHANGE</th>
+                    <th class="px-16 py-3 md:py-5 text-xs md:text-sm">24h</th>
 
 
                     <th class="px-4 py-3 md:py-5 hidden lg:flex"></th>
@@ -98,11 +111,11 @@
 
                 </tr>
 
-                <tr>
+                <!-- <tr>
                     <img class="w-1/3 sm:w-3/5 md:w-7/12 lg:w-2/5 h-0.5 absolute inset-0 top-44 left-36 md:top-48 md:left-44 lg:top-48  lg:left-96 lg:mx-2"
                         src="/images/Table-icons/Line 1.svg" alt="">
 
-                </tr>
+                </tr> -->
             </thead>
 
             <tbody class="md:text-sm ">
@@ -119,17 +132,53 @@
                     <td class="relative pb-4 ">
 
                         <div
-                            class="Ellipse w-7 h-7 md:w-8 md:h-8 lg:py-2 lg:w-9 lg:h-9 rounded-full text-red-800 text-[8px] md:text-[10px] lg:text-xs text-center flex items-center justify-center  bg-[#FFE0E0]">
-                            USDT</div>
+                            class="Ellipse w-7 h-7 md:w-8 md:h-8 lg:py-2 lg:w-10 lg:h-9 rounded-full text-red-800 text-[8px] md:text-[10px] lg:text-xs text-center flex items-center justify-center font-pop bg-[#FFE0E0] ">
+                            USDT
+                        </div>
 
                     </td>
 
                     <td class="px-5 font-pop pb-4 text-xs md:text-sm lg:text-lg">
                         <p>USDT/ETH</p>
-                        <p class="text-xs text-center">0x29aCCB7</p>
+
+                        <div class="flex ">
+                            <p class="text-[9px] text-center ">0x29aCCB7..</p>
+                            <div class="flex absolute">
+                                <img class="w-6 h-6 mt-9" src="/images/Table-icons/Polygon 1.svg" alt="">
+                                <div class="bg-black w-[96%] h-24 p-3 text-white font-inter text-xs ">
+                                    
+                                    <div class="flex">
+                                        <p class="mx-2 font-bold ">Pair</p>
+                                        <p class="mx-3">0x3f1949713e5e2503ba766c22533a4aa7c3406d23</p>
+                                        <img class="w-3 h-5" src="/images/Table-icons/copy.svg" alt="">
+                                    </div>
+                                    <div class="flex">
+                                        <p class="mx-2 font-bold">USDT</p>
+                                        <p class="mx-2">0x3f1949713e5e2503ba766c22533a4aa7c3406d23</p>
+                                        <img class="w-3 h-5" src="/images/Table-icons/copy.svg" alt="">
+                                    </div>
+                                    <div class="flex">
+                                        <p class="mx-2 font-bold">WETH</p>
+                                        <p class="mx-1">0x3f1949713e5e2503ba766c22533a4aa7c3406d23</p>
+                                        <img class="w-3 h-5" src="/images/Table-icons/copy.svg" alt="">
+                                    </div>
+
+                                    <div class="flex">
+                                        <p class="mx-2 font-bold">Block</p>
+                                        <p class="mx-2">17612891</p>
+                                        <img class="w-3 h-5" src="/images/Table-icons/copy.svg" alt="">
+                                    </div>
+
+                                    
+
+                                </div>
+                            </div>
+
+                        </div>
+
                     </td>
 
-                    <td class="flex justify-center items-center mt-2 pb-4">
+                    <td class="flex justify-center items-center mt-2 pb-4 ">
                         <img class="w-min h-2 md:h-3" src="/images/Table-icons/clock.svg" alt="">
                         <span class="px-2 font-pop text-xs md:text-sm lg:text-lg">3M 44s</span>
                     </td>
@@ -157,7 +206,7 @@
                     </td>
 
                     <td>
-                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/plus.svg" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/pin.svg" alt="">
                     </td>
 
                     <td>
@@ -185,7 +234,7 @@
 
                     <td class="px-6 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         <p>XRO/ETH</p>
-                        <p class="text-xs text-center">0x29aCCB7</p>
+                        <p class="text-[9px] text-center">0x29aCCB7..</p>
                     </td>
 
                     <td class="flex justify-center items-center mt-2 pb-4">
@@ -215,7 +264,7 @@
                     </td>
 
                     <td>
-                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/plus.svg" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/pin.svg" alt="">
                     </td>
 
                     <td>
@@ -242,7 +291,7 @@
 
                     <td class="px-6 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         <p>XRO/ETH</p>
-                        <p class="text-xs text-center">0x29aCCB7</p>
+                        <p class="text-[9px] text-center">0x29aCCB7</p>
                     </td>
 
                     <td class="flex justify-center items-center mt-2 pb-4">
@@ -272,7 +321,7 @@
                     </td>
 
                     <td>
-                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/plus.svg" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/pin.svg" alt="">
                     </td>
 
                     <td>
@@ -299,7 +348,7 @@
 
                     <td class="px-6 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         <p>XRO/ETH</p>
-                        <p class="text-xs text-center">0x29aCCB7</p>
+                        <p class="text-[9px] text-center">0x29aCCB7</p>
                     </td>
 
                     <td class="flex justify-center items-center mt-2 pb-4">
@@ -329,7 +378,7 @@
                     </td>
 
                     <td>
-                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/plus.svg" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/pin.svg" alt="">
                     </td>
 
                     <td>
@@ -356,7 +405,7 @@
 
                     <td class="px-6 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         <p>XRO/ETH</p>
-                        <p class="text-xs text-center">0x29aCCB7</p>
+                        <p class="text-[9px] text-center">0x29aCCB7</p>
                     </td>
 
                     <td class="flex justify-center items-center mt-2 pb-4">
@@ -386,7 +435,7 @@
                     </td>
 
                     <td>
-                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/plus.svg" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/pin.svg" alt="">
                     </td>
 
                     <td>
@@ -413,7 +462,7 @@
 
                     <td class="px-6 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         <p>XRO/ETH</p>
-                        <p class="text-xs text-center">0x29aCCB7</p>
+                        <p class="text-[9px] text-center">0x29aCCB7</p>
                     </td>
 
                     <td class="flex justify-center items-center mt-2 pb-4">
@@ -443,7 +492,7 @@
                     </td>
 
                     <td>
-                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/plus.svg" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/pin.svg" alt="">
                     </td>
 
                     <td>
@@ -471,7 +520,7 @@
 
                     <td class="px-6 font-pop pb-4 text-xs md:text-sm lg:text-lg ">
                         <p>XRO/ETH</p>
-                        <p class="text-xs text-center">0x29aCCB7</p>
+                        <p class="text-[9px] text-center">0x29aCCB7</p>
                     </td>
 
                     <td class="flex justify-center items-center mt-2 pb-4">
@@ -501,7 +550,7 @@
                     </td>
 
                     <td>
-                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/plus.svg" alt="">
+                        <img class="w-3 h-3 lg:w-5 lg:h-5 mb-4 md:w-4 md:h-4" src="/images/Table-icons/pin.svg" alt="">
                     </td>
 
                     <td>
@@ -516,6 +565,7 @@
 
 
         </table>
+
     </div>
 
 

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/tailwind.css">
+    <title>Wallet Tracking</title>
+</head>
+
+<body>
+
+    <!-- ----Navigation----- -->
+
+    <div class="navigation bg-black w-full h-12 md:h-14 grid grid-cols-5 lg:grid-cols-7">
+
+        <!-- <div class="flex justify-center items-center"> -->
+        <div class="col-span-3 lg:col-span-3 flex justify-between">
+            <div class="flex ">
+                <img class="w-12 h-12 md:w-14 md:h-14" src="/images/Navigation-Icons/Logo.svg" alt="">
+                <div class="hamburger inline-block cursor-pointer pt-3 mx-4 sm:hidden">
+                    <div class="line h-0.5 w-5 my-1 bg-white "></div>
+                    <div class="line h-0.5 w-5 my-1 bg-white"></div>
+                    <div class="line h-0.5 w-5 my-1 bg-white"></div>
+                </div>
+            </div>
+
+
+            <div class="flex justify-center items-center">
+                <span class="text-white text-sm sm:text-xs md:text-sm lg:w-14">MONITORS</span>
+                <img class="w-5 h-5 md:w-6 md:h-6 lg:mx-4" src="/images/Navigation-Icons/keyboard-arrow-down.svg"
+                    alt="">
+            </div>
+
+            <div class="mx-0.5 py-4 hidden sm:flex">
+                <p class="text-gray-500 text-xs md:text-sm md:mx-1.5 lg:mx-2">TRACKING</p>
+                <p class="text-gray-500 text-xs md:text-sm mx-2 lg:mx-2">BOTS</p>
+
+            </div>
+
+            <div class="search relative hidden sm:flex">
+                <img class="w-min h-3 absolute inset-0 mt-5 px-4 mx-4 md:mx-4 md:w-11 md:h-3 md:mt-6"
+                    src="/images/Navigation-Icons/magnifying.svg" alt="" />
+
+                <input
+                    class="bg-gray-200 mt-3 px-9 py-2 mx-4 w-48 h-7 text-xs  md:text-md md:w-full md:h-9 md:px-10 font-pop"
+                    type="text" placeholder="WALLET / PAIR / TOKEN" />
+            </div>
+
+        </div>
+
+        <div class="col-span-1 lg:col-span-2 flex ">
+            <div class="sm:hidden flex justify-center items-center">
+                <img class="w-11 h-4 px-2" src="/images/Navigation-Icons/magnifying.svg" alt="">
+            </div>
+
+            <div class="notification w-7 h-7 mt-3 mx-4 relative">
+                <img src="/images/Navigation-Icons/notifications.svg" alt="">
+                <div
+                    class=" lg:py-2 w-4 h-4 rounded-full text-white text-[8px] md:text-[10px] lg:text-xs text-center flex items-center justify-center absolute inset-0 left-4 bg-red-500">
+                    4</div>
+            </div>
+        </div>
+
+        <div class="id col-span-1 lg:col-span-2 text-white text-xs sm:text-sm flex justify-end items-center">
+            <p>0xDde4x7gv3..</p>
+        </div>
+
+    </div>
+
+    <!-- ---BODY---- -->
+
+    <div class="body flex flex-col justify-center items-center mt-14">
+        <div class="text-4xl font-bold">
+            WALLET TRACKING
+        </div>
+
+        <div class="bg-[#F3EEC1] rounded-lg flex justify-center items-center font-pop mt-16 h-10">
+
+            <div class="questionmark mx-4 flex items-center">
+                <img class="w-4 h-3" src="/images/WalletTracking/_.svg" alt="">
+            </div>
+
+            <div class="text">
+                <p class="text-sm">
+                    Track Wallets to get real time notifications on transactions
+                </p>
+            </div>
+
+            <div class="btn mx-6 flex items-center justify-center">
+                <span class="bg-black w-24 h-5 px-2 text-white text-sm">
+                    Learn More
+                </span>
+            </div>
+        </div>
+
+        <div
+            class="border border-black border-solid rounded-sm flex w-96 h-11 mt-8 justify-center items-center relative">
+
+            <img class="w-5 h-5 absolute inset-0 mx-6 mt-3" src="/images/WalletTracking/person.svg" alt="">
+
+            <input class="w-64 " type="text" placeholder="Title" />
+
+        </div>
+
+        <div class="relative inline-block text-right">
+            <div
+                class="border border-black bg-[#E8E7E7] border-solid rounded-sm flex w-96 h-11 mt-8 justify-center items-center relative">
+
+                <img class="w-5 h-5 absolute inset-0 mx-6 mt-3" src="/images/WalletTracking/eth.svg" alt="">
+
+                <input class="w-64 bg-[#E8E7E7] " type="text" placeholder="Ethereum" />
+
+                <img class="w-11 h-11 absolute inset-0 mx-80" src="/images/WalletTracking/arrow.svg" alt="">
+
+            </div>
+
+
+            <div class="dropdown flex justify-center rounded-sm text-sm">
+            <div
+                class="border border-black border-solid rounded-sm w-16 h-11 mt-8 mx-8 flex flex-col justify-center items-center ">
+
+                <img class="fixed" src="/images/WalletTracking/chat.svg" alt="">
+                <p class="mt-20">Text</p>
+            </div>
+            
+
+            <div
+                class="border border-black border-solid rounded-sm w-16 h-11 mt-8 mx-8 flex flex-col justify-center items-center bg-[#EBFFD8] ">
+
+                <img class="fixed" src="/images/WalletTracking/notification-pc.svg" alt="">
+               
+                <p class="mt-20 text-[#246C0A]">Notifications</p>
+
+            </div>
+
+            <div
+                class="border border-black border-solid rounded-sm w-16 h-11 mt-8 mx-8 flex flex-col justify-center items-center ">
+
+                <img class="fixed" src="/images/WalletTracking/email.svg" alt="">
+                
+                <p class="mt-20">Email</p>
+
+            </div>
+        </div>
+
+            <div
+                class="border border-black border-solid rounded-sm w-96 h-11 mt-16 flex justify-center items-center relative ">
+
+                <img class="w-5 h-5 absolute inset-0 mx-4 mt-3" src="/images/WalletTracking/address.svg" alt="">
+
+                <input class="w-64 mx-12" type="text" placeholder="Address 0x000.." />
+
+                <div class="flex justify-items-end">
+                    <div class="w-7 h-8 md:w-8 md:h-9 lg:w-11 lg:h-11 flex items-center justify-center bg-black">
+                        <div class="arrow">
+                            <img class="w-5 h-6" src="/images/WalletTracking/address-arrow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!-- ---FOOTER---- -->
+
+        <div class="footer bg-black w-full h-9 fixed bottom-0 grid grid-cols-5 lg:grid-cols-8 xl:grid-cols-8">
+
+            <div class="col-span-4 lg:col-span-3 flex items-center ">
+                <div class="statusbar flex justify-between items-center mx-5 relative">
+                    <span class="relative flex h-3 w-3 ">
+                        <span
+                            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-100 "></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                    </span>
+
+                    <div class="text-xs w-16 sm:text-sm text-white flex items-center mx-2">LIVE DATA</div>
+
+                </div>
+
+                <div class="social flex ">
+                    <div class="discord w-4 h-4 sm:w-5 sm:h-5">
+                        <img src="/images/Footer-Icons/discord.svg" alt="">
+                    </div>
+
+                    <div class="twitter w-5 h-2 mx-2 -mt-0.5 sm:w-6 sm:h-2">
+                        <img src="/images/Footer-Icons/twitter.svg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="eth flex justify-center items-center ">
+                    <img class="mt-0.5 w-4 h-4 sm:w-5 sm:h-5" src="/images/Footer-Icons/Frame.svg" alt="">
+                    <span class=" text-gray-400 text-sm mx-1">1891.23$</span>
+                </div>
+
+
+                <div class="petrol flex justify-center items-center">
+                    <img class="w-5 h-5 sm:w-6 sm:h-6 mx-2" src="/images/Footer-Icons/Frame-1.svg" alt="">
+                    <span class=" text-gray-400 text-sm md:text-md ">14</span>
+                </div>
+            </div>
+
+            <div class=" mx-4 col-span-1 md:col-span-1 lg:col-span-5 flex justify-end">
+                <div>
+                    <img class="mt-2 w-5 h-5" src="/images/Footer-Icons/SETTINGS.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+</body>
+
+</html>
