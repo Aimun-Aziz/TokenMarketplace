@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/tailwind.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="main flex flex-col justify-center items-center">
+        <div class="mt-12">
+            <img class="w-16 h-16" src="/images/monogram_white 1.png" alt="">
+        </div>
+
+        <div class="flex w-[13%] justify-between mt-12">
+
+            <button
+                class="bg-black w-20 h-9 rounded-[3px] text-white text-center text-sm flex justify-center items-center">Login</button>
+
+            <button
+                class="border border-black border-solid w-20 h-9 rounded-[3px] text-black text-center font-semibold flex justify-center items-center">Register</button>
+
+        </div>
+
+        <div class="bg-[#F3C1C1] rounded-lg flex justify-start items-center w-[35%] font-pop mt-16 h-10">
+
+            <div class="exclamationmark mx-4 flex items-center">
+                <img class="w-5 h-5" src="/images/LoginPage-icons/error.svg" alt="">
+            </div>
+
+            <div class="text">
+                <p class="text-sm text-center">
+                    Invalid Username or Password , Please try again.
+                </p>
+            </div>
+
+        </div>
+
+        <div
+            class="border border-black border-solid rounded-sm flex w-96 h-11 mt-8 justify-center items-center relative">
+
+            <img class="w-5 h-5 absolute inset-0 mx-6 mt-3" src="/images/LoginPage-icons/user.svg" alt="">
+
+            <input class="w-64 " type="text" placeholder="Username / Email" />
+        </div>
+
+        <div
+            class="border border-black border-solid rounded-sm flex w-96 h-11 mt-8 justify-center items-center relative">
+
+            <img class="w-5 h-6 absolute inset-0 mx-6 mt-3" src="/images/LoginPage-icons/email.svg" alt="">
+
+            <input class="w-64 " type="text" placeholder="Email" />
+        </div>
+
+        <div
+        class="border border-black border-solid rounded-sm flex w-96 h-11 mt-8 justify-center items-center relative">
+
+        <img class="w-5 h-6 absolute inset-0 mx-6 mt-3" src="/images/LoginPage-icons/password.svg" alt="">
+
+        <input class="w-64 " type="text" placeholder="Password" />
+    </div>
+
+        <div class="btn bg-black text-white text-sm mt-14 relative ">
+            <div class="flex justify-center items-center">
+                <img class="w-5 h-5 absolute inset-0 mx-4 mt-2" src="/images/LoginPage-icons/login.svg" alt="">
+                <button class="w-32 h-9 mx-4">Log In</button>
+            </div>
+        </div>
+
+        <div class="footer font-inter text-sm mt-6 mb-8">
+            <p>By using Rewiiind, you agree to our <span class="underline underline-offset-2">Terms of Service</span>
+                and our <span class="underline underline-offset-2">Privacy Policy</span>.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
