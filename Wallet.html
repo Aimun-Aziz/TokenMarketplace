@@ -5,27 +5,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Css/tailwind.css">
-    <title>Wallet</title>
+    <title>Track Wallet</title>
 </head>
 
 <body>
-    <div class="main flex flex-col justify-center items-center ">
-        <div class="mt-36">
-            <img class="w-14 h-14" src="/images/monogram_white 1.png" alt="">
+
+    <!-- ----Navigation------ -->
+    <div class="navigation bg-black w-full h-12 md:h-14 grid grid-cols-6 lg:grid-cols-7 sticky">
+
+        <div class="col-span-3 lg:col-span-3 flex justify-center w-[100%] ">
+            <div
+                class="flex justify-center items-center min-[320px]:w-[15%] sm:w-[70%] min-[320px]:ml-5 min-[320px]:justify-start md:w-[24%] lg:w[16%] ">
+                <img class="w-10 h-10 md:w-12 md:h-12" src="/images/Rewiiind-logo/logo-white.svg" alt="">
+
+            </div>
+
+            <div
+                class="flex justify-center items-center text-center min-[320px]:w-[100%] min-[320px]:justify-start md:w-[18%] ">
+                <div class="hamburger inline-block cursor-pointer mx-4 sm:hidden">
+                    <div class="line h-0.5 w-4 my-1 bg-white "></div>
+                    <div class="line h-0.5 w-4 my-1 bg-white"></div>
+                    <div class="line h-0.5 w-4 my-1 bg-white"></div>
+                </div>
+                <span class="text-white text-xs md:text-sm lg:text-lg lg:w-[75px]">Monitors</span>
+                <img class="w-5 h-5 md:w-6 md:h-6 " src="/images/Navigation-Icons/keyboard-arrow-down.svg" alt="">
+            </div>
+
+            <div class="mx-0.5 py-4 hidden sm:flex sm:ml-[20px] lg:ml-[8%] text-center">
+                <p class="text-[#383838] text-xs md:text-lg md:mx-1.5 lg:mx-2">Tracking</p>
+                <p class="text-[#383838] text-xs md:text-lg mx-2 lg:mx-2 lg:ml-9">Bots</p>
+
+            </div>
+
+            <div class="search relative hidden sm:flex sm:w-[30%] md:w-[40%] lg:w-[60%] lg:ml-10">
+                <img class="w-min h-3 absolute inset-0 mt-5 px-4 mx-4 md:w-11 md:mt-6"
+                    src="/images/Navigation-Icons/magnifying.svg" alt="" />
+
+                <input
+                    class="bg-gray-200 mt-3 px-9 py-2 mx-4 w-48 h-7 text-xs md:text-md md:w-full md:h-9 md:px-10 font-pop"
+                    type="text" placeholder="WALLET / PAIR / TOKEN" />
+            </div>
+
         </div>
 
-        <div class="mt-8">
-            <span class="text-black font-extrabold text-4xl">Welcome To</span>
-            <!-- <p class="stroke-1 fill-white stroke-black text-5xl mx-4 mt-5 drop-shadow-lg">Rewiiind</p> -->
-            <img class="mt-5 drop-shadow-lg w-56 h-auto" src="/images/Rewiiind.png" alt="">
-        </div>
+        <!-- <div class="flex w-[650%] justify-center"> -->
+        <div class="col-span-3 lg:col-span-4 flex justify-end sm:w-[94%] ">
+            <div class="sm:hidden flex justify-center items-center">
+                <img class="min-[320px]:w-11 min-[320px]:h-4 px-2"
+                    src="/images/Navigation-Icons/magnifying.svg" alt="">
+            </div>
 
-        <div class="btn bg-black text-white text-xs mt-20 relative ">
-            <div class="flex justify-center items-center">
-                <img class="w-5 h-5 absolute inset-0 mx-3 mt-2" src="/images/link1.png" alt="">
-                <button class="w-36 h-9 mx-4">CONNECT WALLET</button>
+            <div class="notification min-[320px]:mt-3 md:mt-4 lg:mt-3 mr-4 relative">
+                <img class="min-[320px]:w-5 min-[320px]:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 "
+                    src="/images/Navigation-Icons/notifications.svg" alt="">
+                <div
+                    class="w-3 h-3 lg:py-2 lg:w-4 lg:h-4 rounded-full text-white text-[8px] md:text-[8px] lg:text-xs text-center flex items-center justify-center absolute inset-0 left-3 lg:left-4 bg-red-500">
+                    4</div>
+            </div>
+
+            <div class="address text-white text-xs flex justify-end items-center">
+                <p>0xDde4x7gv3..</p>
             </div>
         </div>
+        <!-- </div> -->
+
+    </div>
+
+    <!-- ----Menu----- -->
+
+    <div class="menubar bg-[#D9D9D9] w-full min-[320px]:h-8 md:h-10 flex justify-start items-center">
+        <div class="sm:w-[50%] flex items-center min-[320px]:w-[70%] min-[320px]:ml-[50px] md:ml-[90px] lg:ml-[109px] min-[320px]:text-xs lg:text-sm ">
+
+            <div class="newpairs flex">
+                <img class="min-[320px]:w-4 min-[320px]:h-4 md:w-6 md:h-6" src="/images/Dashboard-horizontal-menubar/newpairs.svg" alt="">
+                <p class="font-bold font-inter ml-1 min-[320px]:text-[8px] sm:text-sm">New Pairs</p>
+            </div>
+
+            <div class="hotpairs flex ml-8">
+                <img class="min-[320px]:w-4 min-[320px]:h-4 md:w-5 md:h-5 " src="/images/Dashboard-horizontal-menubar/hotpairs.svg"
+                    alt="">
+                <p class="font-inter ml-1 min-[320px]:text-[8px] sm:text-sm"> Hot Pairs </p>
+            </div>
+
+            <div class="trends flex ml-8">
+                <img class="min-[320px]:w-4 min-[320px]:h-4 md:w-6 md:h-6" src="/images/Dashboard-horizontal-menubar/trends.svg" alt="">
+                <p class=" font-inter ml-1 min-[320px]:text-[8px] sm:text-sm"> Trends </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- -----Body------ -->
+
+    <div class="main flex flex-col w-full h-[90vh] justify-center items-center ">
+
+        <div>
+            <img class="w-64 h-44" src="/images/TractWallet/WalletAlert.svg" alt="">
+        </div>
+
+        <div class="">
+            <span class="text-black font-extrabold text-4xl font-inter"> WALLET ALERTS</span>
+        </div>
+
+        <div>
+            <p class="font-inter ">You are not currently tracking any wallets.</p>
+        </div>
+
+        <div class="button bg-black text-white flex justify-center items-center w-64 h-11 rounded-[4px]">
+            <img class="w-5 h-5 mx-2 mt-1" src="/images/TractWallet/plus.svg" alt="">
+            <span class="mx-1">Add Wallet To Watchlist</span>
+        </div>
+
+    </div>
+
+    <!-- -----Footer----- -->
+
+    <div class="footer flex bg-black w-full h-9 fixed bottom-0 z-10">
+
+        <div class="flex w-[40%]">
+            <div class="statusbar flex mx-5 relative">
+                <span class="relative flex h-3 w-3 mt-3">
+                    <span
+                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-100 "></span>
+                    <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                </span>
+
+                <div class="text-xs w-16 hidden sm:flex text-white mt-2 mx-3">LIVE DATA</div>
+
+            </div>
+
+            <div class="social flex mt-2">
+                <div class="discord w-4 h-4 sm:w-5 sm:h-5">
+                    <img src="/images/Footer-Icons/discord.svg" alt="">
+                </div>
+
+                <div class="twitter w-5 h-2  lg:mx-3 -mt-0.5 sm:w-6 sm:h-2">
+                    <img src="/images/Footer-Icons/twitter.svg" alt="">
+                </div>
+
+            </div>
+
+            <div class="eth h-5 w-5 mt-2 flex mx-6 ">
+                <img class="mt-0.5" src="/images/Footer-Icons/Frame.svg" alt="">
+                <span class=" text-gray-400 text-sm mx-1">1891.23$</span>
+            </div>
+
+
+            <div class="eth h-4 w-4 mt-1.5 sm:w-5 sm:h-5 sm:mx-16 mx-20 flex">
+                <img class="" src="/images/Footer-Icons/Frame-1.svg" alt="">
+                <span class=" text-gray-400 text-sm md:text-md mx-1">14</span>
+            </div>
+        </div>
+
+        <div class=" mx-4 w-[100%] flex justify-end">
+            <div>
+                <img class="mt-2 w-5 h-5" src="/images/Footer-Icons/SETTINGS.svg" alt="">
+            </div>
+        </div>
+
     </div>
 
 </body>
